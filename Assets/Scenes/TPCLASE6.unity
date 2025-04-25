@@ -4526,7 +4526,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7899548319522396748, guid: b9c6368d7034c544e962435567de553a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1115796851027531466}
+      addedObject: {fileID: 1115796851027531467}
   m_SourcePrefab: {fileID: 100100000, guid: b9c6368d7034c544e962435567de553a, type: 3}
 --- !u!1 &1115796851027531464 stripped
 GameObject:
@@ -4538,7 +4538,7 @@ Light:
   m_CorrespondingSourceObject: {fileID: 5048182352286426477, guid: b9c6368d7034c544e962435567de553a, type: 3}
   m_PrefabInstance: {fileID: 1115796851027531463}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1115796851027531466
+--- !u!114 &1115796851027531467
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4547,10 +4547,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1115796851027531464}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdff1e238643aa5489b63b50055bf309, type: 3}
+  m_Script: {fileID: 11500000, guid: 00686c686eed3ee48965cde9fb10c5cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myLight: {fileID: 1115796851027531465}
+  maxWait: 1
+  maxFlicker: 0.2
 --- !u!1001 &2097357833225849801
 PrefabInstance:
   m_ObjectHideFlags: 0
